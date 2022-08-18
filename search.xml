@@ -54,4 +54,20 @@
         <tag>异常</tag>
       </tags>
   </entry>
+  <entry>
+    <title>markdown语法</title>
+    <url>/2022/08/18/markdown%E8%AF%AD%E6%B3%95/</url>
+    <content><![CDATA[<p>markdown的基本语法,添加图片、浏览全文按钮等。</p>
+<span id="more"></span>
+
+<h3 id="给首页添加“浏览全文”按钮"><a href="#给首页添加“浏览全文”按钮" class="headerlink" title="给首页添加“浏览全文”按钮"></a>给首页添加“浏览全文”按钮</h3><p><code>&lt;!--more--&gt;</code></p>
+<h3 id="多级标题"><a href="#多级标题" class="headerlink" title="多级标题"></a>多级标题</h3><figure class="highlight md"><table><tr><td class="code"><pre><span class="line"><span class="section"># 一级</span></span><br><span class="line"><span class="section">## 二级</span></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>markdown</category>
+      </categories>
+      <tags>
+        <tag>markdown</tag>
+        <tag>语法</tag>
+      </tags>
+  </entry>
 </search>
