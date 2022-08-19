@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>张文剑是个大帅哥</title>
-    <url>/2022/08/18/%E5%BC%A0%E6%96%87%E5%89%91%E6%98%AF%E4%B8%AA%E5%A4%A7%E5%B8%85%E5%93%A5/</url>
-    <content><![CDATA[<h1 id="一级标题测试"><a href="#一级标题测试" class="headerlink" title="一级标题测试"></a>一级标题测试</h1><figure class="highlight py"><table><tr><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;hello world&quot;</span>) <span class="comment">#py代码块测试</span></span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>世界富豪名录</category>
-        <category>张文剑</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Hexo常用命令</title>
     <url>/2022/08/17/Hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E5%92%8C%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3/</url>
     <content><![CDATA[<p>Hexo的官方文档和部分常用命令，例如生成静态页面、部署等。</p>
@@ -68,6 +59,34 @@
       <tags>
         <tag>markdown</tag>
         <tag>语法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>计算机组成原理</title>
+    <url>/2022/08/20/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/</url>
+    <content><![CDATA[<p>软考高项系统架构师，计算机组成原理。</p>
+<span id="more"></span>
+
+<blockquote>
+<h3 id="计算机系统组成"><a href="#计算机系统组成" class="headerlink" title="计算机系统组成"></a>计算机系统组成</h3><p>计算机时<strong>软件</strong>和<strong>硬件</strong>的综合体，按功能划分的多级层次结构。</p>
+</blockquote>
+<blockquote>
+<h4 id="计算机硬件的组成"><a href="#计算机硬件的组成" class="headerlink" title="计算机硬件的组成"></a>计算机硬件的组成</h4><p>计算机硬件由运算器，控制器，存储器，输入和输出设备五部分组成。</p>
+<blockquote>
+<p><strong>控制器</strong><br>程序计数器PC：储存下一条指令的地址<br>指令寄存器IR：储存即将执行的指令<br>指令译码器ID：对指令的<strong>操作码</strong>字段进行分析解释<br>时序部件：时许控制信号<br>总结：控制器<strong>是</strong>分析和执行指令的部件，<strong>也是</strong>统一指挥并控制各部件协调工作的中心部件</p>
+</blockquote>
+<blockquote>
+<p><strong>运算器</strong></p>
+</blockquote>
+</blockquote>
+]]></content>
+      <categories>
+        <category>系统架构师</category>
+        <category>计算机组成原理</category>
+      </categories>
+      <tags>
+        <tag>计算机组成</tag>
+        <tag>系统架构师</tag>
       </tags>
   </entry>
 </search>
