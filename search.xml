@@ -37,18 +37,65 @@
     <content><![CDATA[<p>软考高项系统架构师，计算机组成原理。</p>
 <span id="more"></span>
 
-<blockquote>
-<h1 id="计算机系统组成"><a href="#计算机系统组成" class="headerlink" title="计算机系统组成"></a>计算机系统组成</h1><p>计算机时<strong>软件</strong>和<strong>硬件</strong>的综合体，按功能划分的多级层次结构。<br>早期计算机以运算器核心，现在以储存器为核心</p>
-</blockquote>
-<blockquote>
+<h1 id="计算机系统组成"><a href="#计算机系统组成" class="headerlink" title="计算机系统组成"></a>计算机系统组成</h1><p>计算机时<strong>软件</strong>和<strong>硬件</strong>的综合体，按功能划分的多级层次结构<br>早期计算机以运算器核心，现在以储存器为核心</p>
 <h2 id="计算机硬件的组成"><a href="#计算机硬件的组成" class="headerlink" title="计算机硬件的组成"></a>计算机硬件的组成</h2><p>计算机硬件由运算器，控制器，存储器，输入和输出设备五部分组成。（冯诺依曼架构）<br><img src="/../images/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/%E7%A1%AC%E4%BB%B6%E5%9B%BE.png" alt="test"></p>
-<blockquote>
-<p><strong>控制器</strong><br>程序计数器PC：储存下一条指令的地址<br>指令寄存器IR：储存即将执行的指令<br>指令译码器ID：对指令的<strong>操作码</strong>字段进行分析解释<br>时序部件：时序控制信号<br>总结：控制器<strong>是</strong>分析和执行指令的部件，<strong>也是</strong>统一指挥并控制各部件协调工作的中心部件</p>
-</blockquote>
-<blockquote>
+<p><strong>控制器</strong></p>
+<table>
+<thead>
+<tr>
+<th>部件</th>
+<th>功能</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>程序计数器PC</td>
+<td>储存下一条指令的地址</td>
+</tr>
+<tr>
+<td>指令寄存器IR</td>
+<td>储存即将执行的指令</td>
+</tr>
+<tr>
+<td>指令译码器ID</td>
+<td>对指令的<strong>操作码</strong>字段进行分析解释</td>
+</tr>
+<tr>
+<td>时序部件</td>
+<td>时序控制信号</td>
+</tr>
+</tbody></table>
+<p>总结：控制器<strong>是</strong>分析和执行指令的部件，<strong>也是</strong>统一指挥并控制各部件协调工作的中心部件</p>
 <p><strong>运算器</strong></p>
-</blockquote>
-</blockquote>
+<table>
+<thead>
+<tr>
+<th>部件</th>
+<th>功能</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>算数逻辑单元ALU</td>
+<td>执行逻辑运算和算数运算</td>
+</tr>
+<tr>
+<td>累加寄存器AC</td>
+<td>通用寄存器，为ALU工作提供空间，暂存数据</td>
+</tr>
+<tr>
+<td>数据缓冲寄存器DR</td>
+<td>写内存时，暂时保存<strong>指令</strong>和数据</td>
+</tr>
+<tr>
+<td>状态条件寄存器PSW</td>
+<td>存储状态标志和控制标志,比如运算结果为零</td>
+</tr>
+</tbody></table>
+<p>总结：运算器是算数运算和逻辑运算的部件</p>
+<p><strong>主存储器</strong><br>称为内存或主存，用于储存现场操作的数据和指令和数据</p>
+<p><strong>辅助存储器</strong><br>储存要长期保存的数据</p>
+<p><strong>输入设备</strong><br>把人类编好的数据和程序送入计算机，以计算机能接受的形式，键盘、鼠标、扫描仪等</p>
+<p><strong>输出设备</strong><br>把计算机能接受的数据转换为人类或其他设备能接受的形式并输出，比如显示屏</p>
+<p><strong>辅助存储器既是输入设备也是输出设备</strong></p>
 ]]></content>
       <categories>
         <category>系统架构师</category>
@@ -80,11 +127,22 @@
 <span id="more"></span>
 
 <h3 id="给首页添加“浏览全文”按钮"><a href="#给首页添加“浏览全文”按钮" class="headerlink" title="给首页添加“浏览全文”按钮"></a>给首页添加“浏览全文”按钮</h3><p><code>&lt;!--more--&gt;</code></p>
-<h3 id="多级标题（最多六级）"><a href="#多级标题（最多六级）" class="headerlink" title="多级标题（最多六级）"></a>多级标题（最多六级）</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 一级</span><br><span class="line">## 二级</span><br><span class="line">...</span><br><span class="line">###### 六级</span><br></pre></td></tr></table></figure>
+<h3 id="多级标题（最多六级，注意井号后空格）"><a href="#多级标题（最多六级，注意井号后空格）" class="headerlink" title="多级标题（最多六级，注意井号后空格）"></a>多级标题（最多六级，注意井号后空格）</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 一级</span><br><span class="line">## 二级</span><br><span class="line">...</span><br><span class="line">###### 六级</span><br></pre></td></tr></table></figure>
 
 <h3 id="添加图片和超文本链接"><a href="#添加图片和超文本链接" class="headerlink" title="添加图片和超文本链接"></a>添加图片和超文本链接</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![](../images/计算机组成原理/硬件图.png)   #相对地址和绝对地址皆可</span><br><span class="line">[](baidu.com)</span><br></pre></td></tr></table></figure>
 
-<h3 id="字体加粗，斜体"><a href="#字体加粗，斜体" class="headerlink" title="字体加粗，斜体"></a>字体加粗，斜体</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">*斜体*</span><br><span class="line">**加粗**</span><br><span class="line">***加粗斜体***</span><br></pre></td></tr></table></figure>]]></content>
+<h3 id="字体加粗，斜体"><a href="#字体加粗，斜体" class="headerlink" title="字体加粗，斜体"></a>字体加粗，斜体</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">*斜体*</span><br><span class="line">**加粗**</span><br><span class="line">***加粗斜体***</span><br></pre></td></tr></table></figure>
+
+<h3 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br></pre></td></tr></table></figure>
+
+<h3 id="列表（注意空格）"><a href="#列表（注意空格）" class="headerlink" title="列表（注意空格）"></a>列表（注意空格）</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">* 无序列表</span><br><span class="line">1. 有序列表</span><br></pre></td></tr></table></figure>
+
+<h3 id="表格（冒号为左右对齐方式）"><a href="#表格（冒号为左右对齐方式）" class="headerlink" title="表格（冒号为左右对齐方式）"></a>表格（冒号为左右对齐方式）</h3><p>注意与表格代码要和其余行空行</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">表头1|表头2</span><br><span class="line">---|---:</span><br><span class="line">111111111|wwwwwwwwwwwwwwwww</span><br></pre></td></tr></table></figure>
+
+
+<h3 id="删除"><a href="#删除" class="headerlink" title="删除"></a>删除</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">~~删除~~</span><br></pre></td></tr></table></figure>
+]]></content>
       <categories>
         <category>markdown</category>
       </categories>
