@@ -37,7 +37,7 @@
     <content><![CDATA[<p>软考高项系统架构师，计算机组成原理。</p>
 <span id="more"></span>
 
-<h1 id="计算机系统组成"><a href="#计算机系统组成" class="headerlink" title="计算机系统组成"></a>计算机系统组成</h1><p>计算机时<strong>软件</strong>和<strong>硬件</strong>的综合体，按功能划分的多级层次结构<br>早期计算机以运算器核心，现在以储存器为核心</p>
+<h2 id="计算机系统组成"><a href="#计算机系统组成" class="headerlink" title="计算机系统组成"></a>计算机系统组成</h2><p>计算机时<strong>软件</strong>和<strong>硬件</strong>的综合体，按功能划分的多级层次结构<br>早期计算机以运算器核心，现在以储存器为核心</p>
 <h2 id="计算机硬件的组成"><a href="#计算机硬件的组成" class="headerlink" title="计算机硬件的组成"></a>计算机硬件的组成</h2><p>计算机硬件由运算器，控制器，存储器，输入和输出设备五部分组成。（冯诺依曼架构）<br><img src="/../images/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/%E7%A1%AC%E4%BB%B6%E5%9B%BE.png" alt="test"></p>
 <p><strong>控制器</strong></p>
 <table>
@@ -96,7 +96,48 @@
 <p><strong>输入设备</strong><br>把人类编好的数据和程序送入计算机，以计算机能接受的形式，键盘、鼠标、扫描仪等</p>
 <p><strong>输出设备</strong><br>把计算机能接受的数据转换为人类或其他设备能接受的形式并输出，比如显示屏</p>
 <p><em>辅助存储器既是输入设备也是输出设备</em></p>
-]]></content>
+<h2 id="计算机系统结构的分类"><a href="#计算机系统结构的分类" class="headerlink" title="计算机系统结构的分类"></a>计算机系统结构的分类</h2><p>Flynn分类法：根据数据流和指令流的多倍性进行分类</p>
+<table>
+<thead>
+<tr>
+<th>流类型</th>
+<th>定义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>指令流</td>
+<td>机器执行的指令序列</td>
+</tr>
+<tr>
+<td>数据流</td>
+<td>指令序列调用的数据，包括输入数据和中间数据，不包括输出数据</td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th>计算机系统分类</th>
+<th>阐述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>单指令流单数据流（Single Instruction stream and Single Data stream，SISD）</td>
+<td>传统的顺序执行的<strong>单处理器计算机</strong>，其指令部件每次只对一条指令进行译码，并只对一个操作部件分配数据。</td>
+</tr>
+<tr>
+<td>单指令流多数据流（Single Instruction stream and Multiple Data stream，SIMD）</td>
+<td>以<strong>并行处理机（矩阵处理机）</strong> 为代表，并行处理机包括多个重复的处理单元，由单一指令部件控制，按照同一指令流的要求为它们分配各自所需的不同数据。</td>
+</tr>
+<tr>
+<td>多指令流单数据流（Multiple Instruction stream and Single Data stream，MISD）</td>
+<td>具有n个处理单元，按n条不同指令的要求对同一数据流及其中间结果进行不同的处理。一个处理单元的输出又作为另一个处理单元的输入。<strong>这类系统实际上很少见到</strong>。有文献把流水线看作多个指令部件，称流水线计算机是 MISD。</td>
+</tr>
+<tr>
+<td>多指令流多数据流（Multiple Instruction stream and Multiple Data stream，MIMD）</td>
+<td>指能实现作业、任务、指令等各级全面并行的多机系统。如<strong>多核处理器、多处理机</strong>。</td>
+</tr>
+</tbody></table>
+<h2 id="复杂指令集系统和精简指令集系统"><a href="#复杂指令集系统和精简指令集系统" class="headerlink" title="复杂指令集系统和精简指令集系统"></a>复杂指令集系统和精简指令集系统</h2>]]></content>
       <categories>
         <category>系统架构师</category>
         <category>计算机组成原理</category>
