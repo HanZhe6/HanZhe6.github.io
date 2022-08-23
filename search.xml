@@ -137,7 +137,51 @@
 <td>指能实现作业、任务、指令等各级全面并行的多机系统。如<strong>多核处理器、多处理机</strong>。</td>
 </tr>
 </tbody></table>
-<h2 id="复杂指令集系统和精简指令集系统"><a href="#复杂指令集系统和精简指令集系统" class="headerlink" title="复杂指令集系统和精简指令集系统"></a>复杂指令集系统和精简指令集系统</h2>]]></content>
+<h2 id="复杂指令集系统和精简指令集系统"><a href="#复杂指令集系统和精简指令集系统" class="headerlink" title="复杂指令集系统和精简指令集系统"></a>复杂指令集系统和精简指令集系统</h2><table>
+<thead>
+<tr>
+<th>指令系统</th>
+<th>指令</th>
+<th>寻址方式</th>
+<th>实现方式</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>复杂指令集系统CISC</td>
+<td>数量多，使用频率差距大，变长格式</td>
+<td>多种</td>
+<td>微程序</td>
+</tr>
+<tr>
+<td>精简指令集系统RISC</td>
+<td>数量少，一个指令一般在一个周期内完成，使用频率接近，定长格式</td>
+<td>单一</td>
+<td>增加通用寄存器，硬布线</td>
+</tr>
+</tbody></table>
+<p>精简指令集能有效支持高级语言，适用流水线系统。</p>
+<h2 id="总线"><a href="#总线" class="headerlink" title="总线"></a>总线</h2><p>总线是能为多个部件分时共享的公共信息传送线路。<strong>同一时刻</strong>只能有一个部件发送信息，但允许有多个部件接受相同的信息。<br><strong>按功能分</strong>：可分为地址总线，数据总线，控制总线<br><strong>按总线离CPU或其他芯片的位置分</strong>：<strong>内部总线</strong>为寄存器运算器控制器之间的总线，<strong>外部总线</strong>为CPU与RAM,ROM，输入输出设备的总线。</p>
+<h2 id="冯诺依曼结构和哈佛结构"><a href="#冯诺依曼结构和哈佛结构" class="headerlink" title="冯诺依曼结构和哈佛结构"></a>冯诺依曼结构和哈佛结构</h2><table>
+<thead>
+<tr>
+<th>结构</th>
+<th>区别</th>
+<th>特点</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>冯诺依曼结构</td>
+<td>将指令存储器和数据存储器合并在一个存储器</td>
+<td>1.多用于PC  2.数据和指令存储在一起  3.指令和数据都通过数据总线传输</td>
+</tr>
+<tr>
+<td>哈佛结构</td>
+<td>独立的指令存储器和数据存储器，单独的编址</td>
+<td>1.多用于数字信号处理DSP  2.数据和指令分开存储，较高的数据吞入率  3.四个总线</td>
+</tr>
+</tbody></table>
+<p>哈佛结构可以并行读取数据</p>
+]]></content>
       <categories>
         <category>系统架构师</category>
         <category>计算机组成原理</category>
